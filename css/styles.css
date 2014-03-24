@@ -1,0 +1,38 @@
+body{
+    margin-bottom: 80px;
+}
+
+.page-header{
+    margin-top: 0px;
+}
+
+.panel-body {
+    padding-top: 0px;
+}
+
+.featuredImg {
+    margin-bottom: 15px;
+}
+
+#navbar-brand{
+     background: url(../img/9gag-logo-white.png) 0 0 no-repeat;
+     align: center;
+     
+}
+
+#headbar-search{
+    background: url(../img/icon-search-headbar-white.png) 0 0 no-repeat;
+    align: center;
+}
+
+#header-download{
+    background: url(../img/mobile-menu.png) 0 0 no-repeat;
+    align: center;
+   
+}
+
+#tedy-bear{
+    background: url(../img/pooh.jpg) no-repeat;
+    align: center;
+
+}

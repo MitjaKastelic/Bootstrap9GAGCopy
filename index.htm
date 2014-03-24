@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9Gag Copy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "css/bootstrap.min.css" rel="stylesheet">
+        <link href ="css/styles.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+<!--...................................................................................NAVBAR............................................................................................... -->
+        
+        <!-- navbar-inverse nam da črno barvo navbara -->
+        <!-- navbar-static-top nam da lep črn pas, brez zaobljenih robov -->
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                
+                <!-- navbar-brand nam da ime strani -->
+                <a href="#" class="navbar-brand"></a>
+                
+                <!-- this button targets navHeaderCollapse, ki se nahaja v divu 3 vrstice nižje -->
+                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    
+                    <!-- makes 3 bars in the right side of a nav-bar -->
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>    
+                
+                <!-- create a navigation bar, to je kontejener kjer določimo kaj bo collapsamo, ko bomo na mobitelu, ko pritisnemo tipko -->
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    
+                    <!--nav in navbar-nav nam bosta služila za ekstra styling za navigacijski bar,  navbar-right pa nam bo služil za pravo dolžino z desne navgation bar -->
+                    <ul class="nav navbar-nav">
+                        
+                        <!-- class="active" naredi gumb home drugačnega od ostalih, skos obarvan belo.  -->
+                            <a class="navbar-brand" rel="home" href="#" title="9GAG Copy"><img style="max-width:100px; margin-top: -7px;" src="img/9gag-logo-white.png"></a>
+                            <!-- <img src = "img/9gag-logo-white.png"> -->
+                            <li class = "active"><a href="#">Hot</a></li>
+                            <li><a href="#">Trending</a></li>
+                            <li><a href="#">Fresh</a></li>
+                            <li><a href="#">TV</a></li>
+                            <li><a href="#">Girl</a></li>
+                            <li><a href="#">9GAG Tee!</a></li>
+                        
+                        
+                            <li class = "dropdown">
+                            
+                            <!-- <b class = "caret"></b> nam da puščico(caret) ob gumbu social media -->
+                                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">More <b class = "caret"></b></a>
+                                <ul class = "dropdown-menu">
+                                    <li><a href = "#">GIF</a></li>
+                                    <li><a href = "#">NSFW</a></li>
+                                    <li><a href = "#">Cute</a></li>
+                                    <li><a href = "#">Cospaly</a></li>
+                                    <li><a href = "#">Meme</a></li>
+                                    <li><a href = "#">Girl</a></li>
+                                    <li><a href = "#">Food</a></li>
+                                </ul>
+                            </li>
+                        
+                        
+                        
+                            <li><a href="#" id = "headbar-search"></a></li>
+                        
+                            <li><a href="#" id = "header-download"></a></li>
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <a href = "#" class = "btn btn-danger">Upload</a>
+                        <!--"#contact" its a reference for jQuery it's going to trigger javascript an ivent it's going to open a modal!-->
+                        <!--data-toggle-modal its goint to open a modal instead a drop down -->
+                            <li><a href="#contact" data-toggle = "modal">Contact</a></li>
+                            
+                    </ul>    
+                </div>    
+            </div>
+        </div>
+      
+<!-- .....................................................................................ARTICLE PAGE............................................................................................ -->
+        
+        <!-- container poskrbi, da je polje (okvir) za tekst lepo postavljeno na zaslon-->
+        <div class = "container">
+           
+            <div class = "row">
+            
+                <div class = "col-lg-8">
+                
+                    <div class = "panel panel-default">
+                        
+                        <!-- doda padding za tekst v okvirju, da je okoli teksta nekaj praznega prostora do okvirja -->
+                        <div class = "panel-body"> 
+                            
+                            <!-- styling for the page header -->
+                            <div class = "page-header">
+                                
+                                <!-- margin on the top of the text is dealth in style.css -->
+                                <h3> Name of the article <small>Posted on March 11th</small></h3>
+                           
+                            </div>
+                        
+                            <img class = "featuredImg" src = "img/brain.jpg" width = 100%>    
+                            <a href = "#" class = "btn btn-primary">Facebook</a>
+                            <a href = "#" class = "btn btn-info">Twitter</a>
+                            <a href = "#" class = "btn btn-default">...</a>
+                            
+                            <h4> A new Heading</h4>
+                        
+                        </div>
+                    </div>
+                </div>
+       
+<!-- ......................................................................ARTICLE SIDE BAR.....................................................................................-->
+                
+                <!-- size for article space -->
+                <div class = "col-lg-4">
+                    
+                    <div class = "list-group">
+                       
+                        <!--class = "list-group-item doda nam okvir za naš mali tekst/link, active pa nam modro obarva trenutno gledan članek/okvirček -->
+                        <a href = "#" class = "list-group-item active">
+                            <h3>Featured</h3>
+                        </a>
+                        
+                        <a href = "#" class = "list-group-item" id="tedy-bear">
+                            
+                            <!-- class = "list-group-item-heading" nam uredi padding in margin naslova/teksta v okvirčku -->
+                            <h4 class = "list-group-item-heading">Reklama 2</h4>
+                            <p class = "list-group-item-text">Lorem ipsum dolor sit amet.</p>
+                            <a href ="#" ></a>
+                        </a>
+                        
+                        <a href = "#" class = "list-group-item">
+                            
+                            <!-- class = "list-group-item-heading" nam uredi padding in margin naslova/teksta v okvirčku -->
+                            <h4 class = "list-group-item-heading">Reklama 3</h4>
+                            <p class = "list-group-item-text">Lorem ipsum dolor sit amet.</p>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
