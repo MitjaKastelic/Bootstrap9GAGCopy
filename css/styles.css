@@ -31,8 +31,17 @@ body{
    
 }
 
-#tedy-bear{
-    background: url(../img/pooh.jpg) no-repeat;
-    align: center;
+#tree{
+    background: url(../img/tree.jpg) 0 0 no-repeat;
+    width: 100%;
+    display: block;
+    border: none;
+}
 
+#dog{
+    background: url(../img/dog.gif) no-repeat;
+}
+
+a:hover{
+    text-decoration: none;
 }
