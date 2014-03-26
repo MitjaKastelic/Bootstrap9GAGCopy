@@ -17,75 +17,74 @@
         <!-- navbar-static-top nam da lep črn pas, brez zaobljenih robov -->
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
-                
-                <!-- navbar-brand nam da ime strani -->
-                <a href="#" class="navbar-brand"></a>
-                
-                <!-- this button targets navHeaderCollapse, ki se nahaja v divu 3 vrstice nižje -->
-                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-                    
-                    <!-- makes 3 bars in the right side of a nav-bar -->
-                    <span class = "icon-bar"></span>
-                    <span class = "icon-bar"></span>
-                    <span class = "icon-bar"></span>
-                </button>    
-                
-                <!-- create a navigation bar, to je kontejener kjer določimo kaj bo collapsamo, ko bomo na mobitelu, ko pritisnemo tipko -->
-                <div class="collapse navbar-collapse navHeaderCollapse">
-                    
-                    <!--nav in navbar-nav nam bosta služila za ekstra styling za navigacijski bar,  navbar-right pa nam bo služil za pravo dolžino z desne navgation bar -->
-                    <ul class="nav navbar-nav">
-                        
-                        <!-- class="active" naredi gumb home drugačnega od ostalih, skos obarvan belo.  -->
-                            <a class="navbar-brand" rel="home" href="#" title="9GAG Copy"><img style="max-width:100px; margin-top: -7px;" src="img/9gag-logo-white.png"></a>
-                            <!-- <img src = "img/9gag-logo-white.png"> -->
-                            <li class = "active"><a href="#">Hot</a></li>
-                            <li><a href="#">Trending</a></li>
-                            <li><a href="#">Fresh</a></li>
-                            <li><a href="#">TV</a></li>
-                            <li><a href="#">Girl</a></li>
-                            <li><a href="#">9GAG Tee!</a></li>
-                        
-                        
-                            <li class = "dropdown">
+                <div class = "col-lg-9">
+                    <!-- navbar-brand nam da ime strani -->
+                    <a href="#" class="navbar-brand"></a>
+
+                    <!-- this button targets navHeaderCollapse, ki se nahaja v divu 3 vrstice nižje -->
+                    <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+
+                        <!-- makes 3 bars in the right side of a nav-bar -->
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>    
+
+                    <!-- create a navigation bar, to je kontejener kjer določimo kaj bo collapsamo, ko bomo na mobitelu, ko pritisnemo tipko -->
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+
+                        <!--nav in navbar-nav nam bosta služila za ekstra styling za navigacijski bar,  navbar-right pa nam bo služil za pravo dolžino z desne navgation bar -->
+                        <ul class="nav navbar-nav">
                             
-                            <!-- <b class = "caret"></b> nam da puščico(caret) ob gumbu social media -->
-                                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">More <b class = "caret"></b></a>
-                                <ul class = "dropdown-menu">
-                                    <li><a href = "#">GIF</a></li>
-                                    <li><a href = "#">NSFW</a></li>
-                                    <li><a href = "#">Cute</a></li>
-                                    <li><a href = "#">Cospaly</a></li>
-                                    <li><a href = "#">Meme</a></li>
-                                    <li><a href = "#">Girl</a></li>
-                                    <li><a href = "#">Food</a></li>
-                                </ul>
-                            </li>
-                        
-                        
-                        
-                            <li>
-                                <button type="button" class="btn btn-default btn-lg">
-                                    <span class="glyphicon glyphicon-phone"></span>
-                                </button>
-                            </li>
-                            <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Connect with Facebook</button>
-                            <li>
-                                <button type="button" class="btn btn-default btn-lg">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </button>
-                            </li>
-                            <li><a href="#">Log in</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <a href = "#" class = "btn btn-danger">Upload</a>
-                        <!--"#contact" its a reference for jQuery it's going to trigger javascript an ivent it's going to open a modal!-->
-                        <!--data-toggle-modal its goint to open a modal instead a drop down -->
-                            <li><a href="#contact" data-toggle = "modal">Contact</a></li>
+                            <!-- class="active" naredi gumb home drugačnega od ostalih, skos obarvan belo.  -->
+                                <a class="navbar-brand" rel="home" href="#" title="9GAG Copy"><img style="max-width:100px; margin-top: -7px;" src="img/9gag-logo-white.png"></a>
+                                <!-- <img src = "img/9gag-logo-white.png"> -->
+                                <li class = "active"><a href="#">Hot</a></li>
+                                <li><a href="#">Trending</a></li>
+                                <li><a href="#">Fresh</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Girl</a></li>
+                                <li><a href="#">9GAG Tee!</a></li>
+
+
+                                <li class = "dropdown">
+
+                                <!-- <b class = "caret"></b> nam da puščico(caret) ob gumbu social media -->
+                                    <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">More <b class = "caret"></b></a>
+                                    <ul class = "dropdown-menu">
+                                        <li><a href = "#">GIF</a></li>
+                                        <li><a href = "#">NSFW</a></li>
+                                        <li><a href = "#">Cute</a></li>
+                                        <li><a href = "#">Cospaly</a></li>
+                                        <li><a href = "#">Meme</a></li>
+                                        <li><a href = "#">Girl</a></li>
+                                        <li><a href = "#">Food</a></li>
+                                    </ul>
+                                </li>
                             
-                    </ul>    
-                </div>    
+
+
+                                <li>
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <span class="glyphicon glyphicon-phone"></span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </li>
+                                <li><a href="#">Log in</a></li>
+                                <li><a href="#">Sign up</a></li>
+                                <a href = "#" class = "btn btn-danger">Upload</a>
+                           
+                        </ul>    
+                    </div>    
+                </div>
             </div>
         </div>
+        
+        
       
 <!-- .....................................................................................ARTICLE PAGE............................................................................................ -->
         
@@ -105,7 +104,7 @@
                             <div class = "page-header">
                                 
                                 <!-- margin on the top of the text is dealth in style.css -->
-                                <h4> Whoever made this is amazing <small>Posted on March 25th</small></h4>
+                                <h4><a href="#"> Whoever made this is amazing <small>Posted on March 25th</small></a></h4>
                            
                            
                                 <p><a href="#"/a></p>    
