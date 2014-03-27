@@ -17,7 +17,6 @@
         <!-- navbar-static-top nam da lep črn pas, brez zaobljenih robov -->
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
-                <div class = "col-lg-9">
                     <!-- navbar-brand nam da ime strani -->
                     <a href="#" class="navbar-brand"></a>
 
@@ -62,25 +61,31 @@
                                     </ul>
                                 </li>
                             
-
-
+                        </ul>
+                        <ul class="nav navbar-nav pull-right">
                                 <li>
-                                    <button type="button" class="btn btn-default btn-lg">
+                                    <a href = "#">
                                         <span class="glyphicon glyphicon-phone"></span>
-                                    </button>
+                                    </a>
                                 </li>
                                 <li>
-                                    <button type="button" class="btn btn-default btn-lg">
+                                    <a href = "#">
                                         <span class="glyphicon glyphicon-search"></span>
-                                    </button>
+                                    </a>
                                 </li>
+                                
                                 <li><a href="#">Log in</a></li>
+                                
                                 <li><a href="#">Sign up</a></li>
-                                <a href = "#" class = "btn btn-danger">Upload</a>
-                           
+                                
+                                <li>
+                                    <button type="button" class="btn btn-danger btn-md" style = "margin-top: 8px">
+                                        Upload
+                                    </button>
+                                <!--<a href = "#" class = "btn btn-danger pull-right">Upload</a>-->
+                                </li>
                         </ul>    
                     </div>    
-                </div>
             </div>
         </div>
         
@@ -100,54 +105,54 @@
                         <!-- doda padding za tekst v okvirju, da je okoli teksta nekaj praznega prostora do okvirja -->
                         <div class = "panel-body"> 
                             
-                            <!-- styling for the page header -->
+                            <!-- page-header is for styling for the page header -->
                             <div class = "page-header">
-                                
-                                <!-- margin on the top of the text is dealth in style.css -->
                                 <h4><a href="#"> Whoever made this is amazing <small>Posted on March 25th</small></a></h4>
-                           
-                           
                                 <p><a href="#"/a></p>    
                                 <img class = "featuredImg" src = "img/funny.gif" width = 100%>
                                 <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Facebook</button>
-                                    <!--<a href = "#" class = "btn btn-primary">Facebook</a>-->
                                 <button class="btn btn-twitter"><i class="fa fa-twitter"></i> | Twitter</button>
-                                    <!--<a href = "#" class = "btn btn-info">Twitter</a>-->
                                 <a href = "#" class = "btn btn-default">...</a>
                              </div>
-                                
-                            <div class = "page-header">    
-                                <h4>"Baby on board" <small>Posted on March 25th</small></h4>
                             
+                            
+                            <div class = "page-header">    
+                                <h4><a href = "#">"Baby on board" <small>Posted on March 25th</small></a></h4>                           
                                 <p><a href="#"/a></p>    
                                 <img class = "featuredImg" src = "img/baby.jpg" width = 100%>
-                                <a href = "#" class = "btn btn-primary">Facebook</a>
-                                <a href = "#" class = "btn btn-info">Twitter</a>
+                                <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Facebook</button>
+                                <button class="btn btn-twitter"><i class="fa fa-twitter"></i> | Twitter</button>
                                 <a href = "#" class = "btn btn-default">...</a>
                             </div>    
-                                
-                            <div class = "page-header">    
-                                <h4>"Getting a job nowadays" <small>Posted on March 25th</small></h4>
                             
+                            
+                            <div class = "page-header">    
+                                <h4>"Getting a job nowadays" <small>Posted on March 25th</small></h4>                            
                                 <p><a href="#"/a></p>    
                                 <img class = "featuredImg" src = "img/frodo.jpg" width = 100%>
-                                <a href = "#" class = "btn btn-primary">Facebook</a>
-                                <a href = "#" class = "btn btn-info">Twitter</a>
+                                <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Facebook</button>
+                                <button class="btn btn-twitter"><i class="fa fa-twitter"></i> | Twitter</button>
                                 <a href = "#" class = "btn btn-default">...</a>
+                            </div>
                                     
                             <div class = "page-header">
-                                
-                                <!-- margin on the top of the text is dealth in style.css -->
-                                <h4> As a programmer. 50 errors in one line of code. <small>Posted on March 25th</small></h4>
-                           
-                           
+                                <h4> As a programmer. 50 errors in one line of code. <small>Posted on March 25th</small></h4>                                                      
                                 <p><a href="#"/a></p>    
                                 <img class = "featuredImg" src = "img/problem.jpg" width = 100%>
                                 <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Facebook</button>
                                 <button class="btn btn-twitter"><i class="fa fa-twitter"></i> | Twitter</button>
                                 <a href = "#" class = "btn btn-default">...</a>
                              </div>
-                            </div>
+                            
+                            <div class = "page-header">
+                                <h4>World's first Camera <small>Posted on March 27th</small></h4>                                                      
+                                <p><a href="#"/a></p>    
+                                <img class = "featuredImg" src = "img/camera.jpg" width = 100%>
+                                <button class="btn btn-facebook"><i class="fa fa-facebook"></i> | Facebook</button>
+                                <button class="btn btn-twitter"><i class="fa fa-twitter"></i> | Twitter</button>
+                                <a href = "#" class = "btn btn-default">...</a>
+                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -164,21 +169,27 @@
                             <h3>Featured</h3>
                         </a>
                         
+                        
                         <a href = "#" class = "list-group-item" >
-                            
                             <!-- class = "list-group-item-heading" nam uredi padding in margin naslova/teksta v okvirčku -->
-                            <h4 class = "list-group-item-heading">Reklama 2</h4>
+                            <h4 class = "list-group-item-heading">Reklama 1</h4>
                             <img href="#" id="tree" src="img/tree.jpg">
-                            <p class = "list-group-item-text">Lorem ipsum dolor sit amet.</p>
+                            <p class = "list-group-item-text">Beautiful tree.</p>
                             <a href ="#" ></a>
                         </a>
                         
+                        
                         <a href = "#" class = "list-group-item">
-                            
-                            <!-- class = "list-group-item-heading" nam uredi padding in margin naslova/teksta v okvirčku -->
-                            <h4 class = "list-group-item-heading">Reklama 3</h4>
+                            <h4 class = "list-group-item-heading">Reklama 2</h4>
                             <img src="img/dog.gif" width = 98%>
-                            <p class = "list-group-item-text">Lorem ipsum dolor sit amet.</p>
+                            <p class = "list-group-item-text">Special dog.</p>
+                        </a>
+                       
+                        
+                        <a href = "#" class = "list-group-item">
+                            <h4 class = "list-group-item-heading">Reklama 3</h4>
+                            <img src="img/universe.jpg" width = 100%>
+                            <p class = "list-group-item-text">Somewhere in the universe.</p>
                         </a>
                         
                     </div>
